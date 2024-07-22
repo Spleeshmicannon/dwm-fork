@@ -14,8 +14,8 @@ static const unsigned int gappx     = 6;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=12" };
-static const char dmenufont[]       = "monospace:size=12";
+static const char *fonts[]          = { "monospace:size=14" };
+static const char dmenufont[]       = "monospace:size=14";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -30,8 +30,8 @@ static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { "#a89984", "#1d2021", "#1d2021"},
 	[SchemeSel] = { "#ebddbc", "#458588", "#1d2021"},
-    [SchemeWarn] =	 { "#1d2021", "#d79921", "#d79921" },
-	[SchemeUrgent]=	 { "#1d2021", "#cc241d", "#cc241d" }
+    [SchemeWarn] =	 { "#1d2021", "#98971a", "#1d2021" },
+	[SchemeUrgent]=	 { "#1d2021", "#d79921", "#1d2021" }
 };
 
 /* tagging */
